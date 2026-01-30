@@ -13,7 +13,7 @@ app.use(cors({
 }));
 
 const proxy = createProxyMiddleware({
-  target: 'http://18.188.251.4:3000',
+  target: 'http://18.188.251.4:5000',
   changeOrigin: true,
   ws: true,
   logLevel: 'info',
